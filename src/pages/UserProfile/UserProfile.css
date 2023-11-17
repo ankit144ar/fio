@@ -1,0 +1,147 @@
+/* styles in main component- UserProfile */
+.profile-body {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    margin: 2rem;
+    ;
+}
+
+.align-profile {
+    display: flex;
+    gap: 2rem;
+}
+
+.align-center div {
+    text-align: center;
+}
+
+/* styles in Profile component */
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+    box-shadow: 2px 2px 5px 10px var(--secondary-color);
+    border-radius: 0.7rem;
+    padding: 1rem;
+    margin-top: 2rem;
+
+}
+
+.header {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.address-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-bottom: 1rem;
+}
+
+.address-button {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.address-button button {
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: 2px solid var(--secondary-color);
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.edit-btn:hover {
+    background-color: var(--secondary-color);
+}
+
+.remove-address-btn {
+    color: red;
+    border: 1px solid red;
+
+}
+
+.remove-address-btn:hover {
+    background-color: var(--primary-color);
+    color: white
+}
+
+/* styles in Address Form */
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form-address {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 5px 6px var(--secondary-color);
+    gap: 1rem;
+    margin-top: 7rem;
+
+}
+
+
+.input-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+}
+
+.input-body input {
+    margin: 1rem;
+    font-size: 1rem;
+    width: 100%;
+    padding: 0.2rem 1rem;
+    border-radius: 0.3rem;
+    border-color: var(--secondary-color);
+
+}
+
+.input-body input:hover {
+    border-color: gray;
+}
+
+
+.button-div {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.button-div button {
+    padding: 0.5em 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    /* border: none; */
+}
+
+.save-btn {
+    border: 1px solid var(--green);
+    color: var(--green);
+}
+
+.save-btn:hover {
+    background-color: var(--green);
+    color: white
+}
+
+.dummy-btn {
+    border: 1px solid gray;
+}
+
+.dummy-btn:hover {
+    background-color: var(--secondary-color);
+}
